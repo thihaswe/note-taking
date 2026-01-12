@@ -1,4 +1,5 @@
-import CIcon from "@/common/c-Icon";
+import CIcon from "@/common/c-icon";
+import MyTabs from "@/components/tabs-menu";
 import React, { useState } from "react";
 import {
   Modal,
@@ -51,7 +52,6 @@ const HomeScreen = () => {
               }}
             >
               <Text style={styles.title}>Bottom Sheet (80%)</Text>
-
               <Pressable
                 style={(pressed) => [
                   {
@@ -64,6 +64,8 @@ const HomeScreen = () => {
                 <CIcon name="close" type="AntDesign" />
               </Pressable>
             </View>
+
+            <MyTabs />
           </View>
         </Pressable>
       </Modal>

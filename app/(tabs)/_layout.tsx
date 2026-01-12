@@ -1,4 +1,4 @@
-import CIcon from "@/common/c-Icon";
+import CIcon from "@/common/c-icon";
 import { Tabs } from "expo-router";
 export default function TabLayout() {
   return (
